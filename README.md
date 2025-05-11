@@ -55,8 +55,8 @@ ai-inference-backend/
 1. **Clone the repository:**
 
    ```bash
-   git clone <your-repository-url>
-   cd ai-inference-backend
+   git clone https://github.com/dhanushk-offl/ai-inference-backend-boilerplate.git
+   cd ai-inference-backend-boilerplate
    ```
 
 2. **Build and start the containers:**
@@ -157,6 +157,7 @@ graph LR
     style C fill:#a8dadc,stroke:#005f73,stroke-width:2px
     style D fill:#fff,stroke:#2f4f4f,stroke-width:2px
     style E fill:#f7c7b3,stroke:#ff7a00,stroke-width:2px
+
 ```
 
 ### Description of the Workflow:

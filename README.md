@@ -18,7 +18,7 @@
 ## 🏗️ Architecture
 
 ```mermaid
-flowchart LR
+graph TD
     A[React Frontend] -->|POST /predict| B[Node.js API]
     B -->|Cache Check| E[Redis]
     E -->|Cache Hit| B
@@ -28,11 +28,6 @@ flowchart LR
     C -->|Store Result| E
     C -->|Return Prediction| B
     B -->|JSON Response| A
-
-    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px;
-    classDef highlight stroke:#000,stroke-width:2px;
-    
-    class A,B,C,D,E highlight;
 ```
 
 ## 📂 Project Structure

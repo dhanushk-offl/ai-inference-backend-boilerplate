@@ -29,17 +29,10 @@ flowchart LR
     C -->|Return Prediction| B
     B -->|JSON Response| A
 
-    classDef frontend fill:#e2f7ff,stroke:#005f73,stroke-width:2px;
-    classDef node fill:#f0e5de,stroke:#bc2a8d,stroke-width:2px;
-    classDef python fill:#a8dadc,stroke:#005f73,stroke-width:2px;
-    classDef model fill:#fff,stroke:#2f4f4f,stroke-width:2px;
-    classDef redis fill:#f7c7b3,stroke:#ff7a00,stroke-width:2px;
-
-    class A frontend;
-    class B node;
-    class C python;
-    class D model;
-    class E redis;
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:1px;
+    classDef highlight stroke:#000,stroke-width:2px;
+    
+    class A,B,C,D,E highlight;
 ```
 
 ## 📂 Project Structure

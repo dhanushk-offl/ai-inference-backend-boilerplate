@@ -1,6 +1,8 @@
-# 🚀 AI Inference Backend
+# 🚀 AI Inference Backend Boilerplate (For Efficient Backend Development for AI Inference and Solutions) 
 
 > A powerful, faster, scalable full-stack boilerplace for AI inference using Node.js, Python, Redis, and Docker
+
+### Wants to know the story of this boilerplace: [Read the blog post](https://itzmedhanu.medium.com/how-i-accidentally-built-a-rocket-ship-while-building-an-ai-backend-d61e9d00add4)
 
 ![Tech Stack](https://img.shields.io/badge/Stack-Node.js%20%7C%20Python%20%7C%20Redis%20%7C%20Docker-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)

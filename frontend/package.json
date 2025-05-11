@@ -1,0 +1,21 @@
+{
+  "name": "ai-inference-boilerplate-frontend",
+  "author":{
+    "name": "Dhanush Kandhan",
+    "email": "akadhanu@proton.me",
+    "url": "https://dhanu.pages.dev/"
+  },    
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "axios": "^1.0.0",
+    "vite": "^4.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  }
+}
